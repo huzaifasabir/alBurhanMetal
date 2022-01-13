@@ -1,0 +1,38 @@
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 10px 10px 10px 16px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: inherit;
+  font: inherit;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  
+}
+
+.active{
+  background-color: #337ab7;
+  color: white;
+}
+
+.dropdown-btn:hover {
+  background-color: #f5f5f5;
+  color: white;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+}
+.dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+
+.staticlabel{
+  background-color: #61A29C;
+  
+}
